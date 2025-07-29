@@ -60,5 +60,7 @@ test('Dropdown', async({page})=>{
             break;
         }
     }
-    await page.waitForTimeout(2000);
+    await page.waitForTimeout(3000);
+     
+
 })
